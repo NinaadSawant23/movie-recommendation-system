@@ -74,9 +74,9 @@ def display_recommendations(films, details_list):
 movies_list = pickle.load(open('data/movies.pkl', 'rb'))
 similarity_matrix = pickle.load(open('data/similarity_matrix.pkl', 'rb'))
 
-st.set_page_config(page_title="Movie Recommender System", layout="wide")
+st.set_page_config(page_title="Movie Recommendation System", layout="wide")
 
-st.markdown("<h1 style='text-align: center;'>Movie Recommender System</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Movie Recommendation System</h1>", unsafe_allow_html=True)
 
 with st.container():
     col_left, col_center, col_right = st.columns([1, 2, 1])
