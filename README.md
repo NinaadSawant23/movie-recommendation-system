@@ -6,6 +6,8 @@
 
 A movie recommendation system built with Python and Streamlit that uses a similarity matrix to provide suggestions for similar movies. This project includes data preprocessing (in a Jupyter Notebook) and an application that fetches movie posters, genres, and overviews via the TMDb API.
 
+![Project Screenshot](/screenshots/UI.png)
+
 > 🎥 **Discover your next favorite movie** – simply select or search for a movie and get a list of recommendations along with detailed information.
 
 ## 🚀 Features
